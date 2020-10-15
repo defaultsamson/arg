@@ -6,7 +6,7 @@
 var answer = "https://samsonclo.se/arg/.....png"
 
 window.onload = () => {
-document.getElementById("answer").innerHTML = answer
+document.getElementById("answer").value = answer
 }
 
 function samson() {
@@ -27,7 +27,7 @@ window.location.href = "https://youtube.com/channel/UCOxjP8xQZt-3e2ByETWuTuA";
 }
 
 function locate() {
-answer = document.getElementById("answer").innerHTML
+answer = document.getElementById("answer").value
 window.location.href = answer;
 }
 
